@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E140282816C8E70000F388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E140272816C8E70000F388 /* AppDelegate.m */; };
+		29E1402B2816C8E70000F388 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1402A2816C8E70000F388 /* SceneDelegate.m */; };
+		29E1402E2816C8E70000F388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1402D2816C8E70000F388 /* ViewController.m */; };
+		29E140312816C8E70000F388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E1402F2816C8E70000F388 /* Main.storyboard */; };
+		29E140332816C8E70000F388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E140322816C8E70000F388 /* Assets.xcassets */; };
+		29E140362816C8E70000F388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E140342816C8E70000F388 /* LaunchScreen.storyboard */; };
+		29E140392816C8E70000F388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E140382816C8E70000F388 /* main.m */; };
+		29E140432816C8E70000F388 /* RSSchoolClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E140422816C8E70000F388 /* RSSchoolClientTests.m */; };
+		29E1404D2816C8E70000F388 /* RSSchoolClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1404C2816C8E70000F388 /* RSSchoolClientUITests.m */; };
+		29E1404F2816C8E70000F388 /* RSSchoolClientUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E1404E2816C8E70000F388 /* RSSchoolClientUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29E1403F2816C8E70000F388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E1401B2816C8E70000F388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E140222816C8E70000F388;
+			remoteInfo = RSSchoolClient;
+		};
+		29E140492816C8E70000F388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E1401B2816C8E70000F388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E140222816C8E70000F388;
+			remoteInfo = RSSchoolClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29E140232816C8E70000F388 /* RSSchoolClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchoolClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E140262816C8E70000F388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29E140272816C8E70000F388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29E140292816C8E70000F388 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		29E1402A2816C8E70000F388 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		29E1402C2816C8E70000F388 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29E1402D2816C8E70000F388 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29E140302816C8E70000F388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29E140322816C8E70000F388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29E140352816C8E70000F388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29E140372816C8E70000F388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E140382816C8E70000F388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29E1403E2816C8E70000F388 /* RSSchoolClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSchoolClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E140422816C8E70000F388 /* RSSchoolClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSchoolClientTests.m; sourceTree = "<group>"; };
+		29E140482816C8E70000F388 /* RSSchoolClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSchoolClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E1404C2816C8E70000F388 /* RSSchoolClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSchoolClientUITests.m; sourceTree = "<group>"; };
+		29E1404E2816C8E70000F388 /* RSSchoolClientUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSchoolClientUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E140202816C8E70000F388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E1403B2816C8E70000F388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E140452816C8E70000F388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E1401A2816C8E70000F388 = {
+			isa = PBXGroup;
+			children = (
+				29E140252816C8E70000F388 /* RSSchoolClient */,
+				29E140412816C8E70000F388 /* RSSchoolClientTests */,
+				29E1404B2816C8E70000F388 /* RSSchoolClientUITests */,
+				29E140242816C8E70000F388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29E140242816C8E70000F388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E140232816C8E70000F388 /* RSSchoolClient.app */,
+				29E1403E2816C8E70000F388 /* RSSchoolClientTests.xctest */,
+				29E140482816C8E70000F388 /* RSSchoolClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E140252816C8E70000F388 /* RSSchoolClient */ = {
+			isa = PBXGroup;
+			children = (
+				29E140262816C8E70000F388 /* AppDelegate.h */,
+				29E140272816C8E70000F388 /* AppDelegate.m */,
+				29E140292816C8E70000F388 /* SceneDelegate.h */,
+				29E1402A2816C8E70000F388 /* SceneDelegate.m */,
+				29E1402C2816C8E70000F388 /* ViewController.h */,
+				29E1402D2816C8E70000F388 /* ViewController.m */,
+				29E1402F2816C8E70000F388 /* Main.storyboard */,
+				29E140322816C8E70000F388 /* Assets.xcassets */,
+				29E140342816C8E70000F388 /* LaunchScreen.storyboard */,
+				29E140372816C8E70000F388 /* Info.plist */,
+				29E140382816C8E70000F388 /* main.m */,
+			);
+			path = RSSchoolClient;
+			sourceTree = "<group>";
+		};
+		29E140412816C8E70000F388 /* RSSchoolClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				29E140422816C8E70000F388 /* RSSchoolClientTests.m */,
+			);
+			path = RSSchoolClientTests;
+			sourceTree = "<group>";
+		};
+		29E1404B2816C8E70000F388 /* RSSchoolClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29E1404C2816C8E70000F388 /* RSSchoolClientUITests.m */,
+				29E1404E2816C8E70000F388 /* RSSchoolClientUITestsLaunchTests.m */,
+			);
+			path = RSSchoolClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E140222816C8E70000F388 /* RSSchoolClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E140522816C8E70000F388 /* Build configuration list for PBXNativeTarget "RSSchoolClient" */;
+			buildPhases = (
+				29E1401F2816C8E70000F388 /* Sources */,
+				29E140202816C8E70000F388 /* Frameworks */,
+				29E140212816C8E70000F388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSchoolClient;
+			productName = RSSchoolClient;
+			productReference = 29E140232816C8E70000F388 /* RSSchoolClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29E1403D2816C8E70000F388 /* RSSchoolClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E140552816C8E70000F388 /* Build configuration list for PBXNativeTarget "RSSchoolClientTests" */;
+			buildPhases = (
+				29E1403A2816C8E70000F388 /* Sources */,
+				29E1403B2816C8E70000F388 /* Frameworks */,
+				29E1403C2816C8E70000F388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E140402816C8E70000F388 /* PBXTargetDependency */,
+			);
+			name = RSSchoolClientTests;
+			productName = RSSchoolClientTests;
+			productReference = 29E1403E2816C8E70000F388 /* RSSchoolClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29E140472816C8E70000F388 /* RSSchoolClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E140582816C8E70000F388 /* Build configuration list for PBXNativeTarget "RSSchoolClientUITests" */;
+			buildPhases = (
+				29E140442816C8E70000F388 /* Sources */,
+				29E140452816C8E70000F388 /* Frameworks */,
+				29E140462816C8E70000F388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E1404A2816C8E70000F388 /* PBXTargetDependency */,
+			);
+			name = RSSchoolClientUITests;
+			productName = RSSchoolClientUITests;
+			productReference = 29E140482816C8E70000F388 /* RSSchoolClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E1401B2816C8E70000F388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					29E140222816C8E70000F388 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					29E1403D2816C8E70000F388 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 29E140222816C8E70000F388;
+					};
+					29E140472816C8E70000F388 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 29E140222816C8E70000F388;
+					};
+				};
+			};
+			buildConfigurationList = 29E1401E2816C8E70000F388 /* Build configuration list for PBXProject "RSSchoolClient" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29E1401A2816C8E70000F388;
+			productRefGroup = 29E140242816C8E70000F388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E140222816C8E70000F388 /* RSSchoolClient */,
+				29E1403D2816C8E70000F388 /* RSSchoolClientTests */,
+				29E140472816C8E70000F388 /* RSSchoolClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E140212816C8E70000F388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E140362816C8E70000F388 /* LaunchScreen.storyboard in Resources */,
+				29E140332816C8E70000F388 /* Assets.xcassets in Resources */,
+				29E140312816C8E70000F388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E1403C2816C8E70000F388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E140462816C8E70000F388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E1401F2816C8E70000F388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E1402E2816C8E70000F388 /* ViewController.m in Sources */,
+				29E140282816C8E70000F388 /* AppDelegate.m in Sources */,
+				29E140392816C8E70000F388 /* main.m in Sources */,
+				29E1402B2816C8E70000F388 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E1403A2816C8E70000F388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E140432816C8E70000F388 /* RSSchoolClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E140442816C8E70000F388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E1404F2816C8E70000F388 /* RSSchoolClientUITestsLaunchTests.m in Sources */,
+				29E1404D2816C8E70000F388 /* RSSchoolClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29E140402816C8E70000F388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E140222816C8E70000F388 /* RSSchoolClient */;
+			targetProxy = 29E1403F2816C8E70000F388 /* PBXContainerItemProxy */;
+		};
+		29E1404A2816C8E70000F388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E140222816C8E70000F388 /* RSSchoolClient */;
+			targetProxy = 29E140492816C8E70000F388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29E1402F2816C8E70000F388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E140302816C8E70000F388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29E140342816C8E70000F388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E140352816C8E70000F388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E140502816C8E70000F388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29E140512816C8E70000F388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E140532816C8E70000F388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A53U52H77W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RSSchoolClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marius.RSSchoolClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29E140542816C8E70000F388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A53U52H77W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RSSchoolClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marius.RSSchoolClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29E140562816C8E70000F388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A53U52H77W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marius.RSSchoolClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSchoolClient.app/RSSchoolClient";
+			};
+			name = Debug;
+		};
+		29E140572816C8E70000F388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A53U52H77W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marius.RSSchoolClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSchoolClient.app/RSSchoolClient";
+			};
+			name = Release;
+		};
+		29E140592816C8E70000F388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A53U52H77W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marius.RSSchoolClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSSchoolClient;
+			};
+			name = Debug;
+		};
+		29E1405A2816C8E70000F388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A53U52H77W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marius.RSSchoolClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSSchoolClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E1401E2816C8E70000F388 /* Build configuration list for PBXProject "RSSchoolClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E140502816C8E70000F388 /* Debug */,
+				29E140512816C8E70000F388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E140522816C8E70000F388 /* Build configuration list for PBXNativeTarget "RSSchoolClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E140532816C8E70000F388 /* Debug */,
+				29E140542816C8E70000F388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E140552816C8E70000F388 /* Build configuration list for PBXNativeTarget "RSSchoolClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E140562816C8E70000F388 /* Debug */,
+				29E140572816C8E70000F388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E140582816C8E70000F388 /* Build configuration list for PBXNativeTarget "RSSchoolClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E140592816C8E70000F388 /* Debug */,
+				29E1405A2816C8E70000F388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29E1401B2816C8E70000F388 /* Project object */;
+}
